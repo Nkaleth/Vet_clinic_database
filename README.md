@@ -41,8 +41,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -68,8 +66,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Use of PostgreSQL for databases and tables.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,8 +82,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Clone the repository by clicking on the 'Code' button and copy the link
 
 To get a local copy up and running, follow these steps.
 
