@@ -89,20 +89,25 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--visual studio
--github
--PosgreSQL 15
+- visual studio
+- github
+- PosgreSQL 15
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  mkdir Vet_clinic_database
-  cd Vet_clinic_database
+  mkdir my-folder
+  cd my-folder
   git clone git@github.com:Nkaleth/Vet_clinic_database.git
 ```
--
+
+ To access the cloned directory, run:
+
+ ```sh
+ cd Vet_clinic_database
+ ```
 
 ### Install
 
