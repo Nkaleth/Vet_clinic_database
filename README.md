@@ -111,11 +111,8 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+No need to install the app.
 
-```
-  npm install
-```
 ### Usage
 
 Change the main branch to the right one, execute the following command:
