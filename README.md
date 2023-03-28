@@ -98,11 +98,10 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  mkdir my-folder
-  cd my-folder
+  mkdir Vet_clinic_database
+  cd Vet_clinic_database
   git clone git@github.com:Nkaleth/Vet_clinic_database.git
 ```
-
 -
 
 ### Install
