@@ -69,6 +69,9 @@ COMMIT;
 
 /*** -Sam Smith owns Agumon. ***/
 
+/* This is a TRANSACTION that includes a query to retrieve the id of the owner to use it after to update the animals owners, 
+So its a transaction to UPDATE DATA using a query, it is NOT ALTERING the schema of any table */
+
 BEGIN TRANSACTION;
 
 DO $$
@@ -92,6 +95,9 @@ END $$;
 COMMIT;
 
  /* -Jennifer Orwell owns Gabumon and Pikachu.*/
+
+ /* This is a TRANSACTION that includes a query to retrieve the id of the owner to use it after to update the animals owners, 
+So its a transaction to UPDATE DATA using a query, it is NOT ALTERING the schema of any table */
 
 BEGIN TRANSACTION;
 
@@ -118,6 +124,9 @@ COMMIT;
  
 -- -Bob owns Devimon and Plantmon.
 
+/* This is a TRANSACTION that includes a query to retrieve the id of the owner to use it after to update the animals owners, 
+So its a transaction to UPDATE DATA using a query, it is NOT ALTERING the schema of any table */
+
 BEGIN TRANSACTION;
 
 DO $$
@@ -141,6 +150,9 @@ END $$;
 COMMIT;
 
 -- -Melody Pond owns Charmander, Squirtle, and Blossom.
+
+/* This is a TRANSACTION that includes a query to retrieve the id of the owner to use it after to update the animals owners, 
+So its a transaction to UPDATE DATA using a query, it is NOT ALTERING the schema of any table */
 
 BEGIN TRANSACTION;
 
@@ -166,6 +178,9 @@ COMMIT;
 
 -- -Dean Winchester owns Angemon and Boarmon.
 
+/* This is a TRANSACTION that includes a query to retrieve the id of the owner to use it after to update the animals owners, 
+So its a transaction to UPDATE DATA using a query, it is NOT ALTERING the schema of any table */
+
 BEGIN TRANSACTION;
 
 DO $$
@@ -175,7 +190,7 @@ DECLARE
 
 BEGIN 
 
-SELECT INTO owner
+SELECT INTO owner   
 id
 FROM owners
 WHERE full_name = 'Dean Winchester';
