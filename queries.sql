@@ -130,7 +130,6 @@ FROM animals
 JOIN species
 ON animals.species_id = species.id
 WHERE species.name = 'Pokemon';
-selec
 /* List all owners and their animals, remember to include those that don't own any animal. */ 
 
 SELECT owners.full_name, animals.name
