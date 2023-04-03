@@ -48,3 +48,7 @@ CREATE TABLE specializations(
   vet_id INT REFERENCES vets(id),
   PRIMARY KEY(id)
 );
+
+CREATE INDEX animal_id_index ON visits(animal_id);
+CREATE INDEX vet_id_index ON visits(vet_id);
+CREATE INDEX email_index ON owners(email);
