@@ -32,17 +32,19 @@ CREATE TABLE animals(
   PRIMARY KEY(id)
 );
 
-CREATE TABLE specializations(
-  id INT GENERATED ALWAYS AS IDENTITY,
-  species_id INT REFERENCES species(id),
-  vet_id INT REFERENCES vets(id),
-  PRIMARY KEY(id)
-);
-
 CREATE TABLE visits(
   id INT GENERATED ALWAYS AS IDENTITY,
   animal_id INT REFERENCES animals(id),
   vet_id INT REFERENCES vets(id),
   date_of_visit DATE,
+  PRIMARY KEY(id)
+);
+
+
+
+CREATE TABLE specializations(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  species_id INT REFERENCES species(id),
+  vet_id INT REFERENCES vets(id),
   PRIMARY KEY(id)
 );
