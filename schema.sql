@@ -11,6 +11,15 @@ CREATE TABLE species(
   PRIMARY KEY(id)
 );
 
+
+CREATE TABLE vets(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(20),
+  age INT,
+  date_of_graduation DATE,
+  PRIMARY KEY(id)
+);
+
 CREATE TABLE animals(
   id INT GENERATED ALWAYS AS IDENTITY,
   name VARCHAR(20),
@@ -20,14 +29,6 @@ CREATE TABLE animals(
   weight_kg DECIMAL,
   species_id INT REFERENCES species(id),
   owner_id INT REFERENCES owners(id),
-  PRIMARY KEY(id)
-);
-
-CREATE TABLE vets(
-  id INT GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(20),
-  age INT,
-  date_of_graduation DATE,
   PRIMARY KEY(id)
 );
 
@@ -45,4 +46,3 @@ CREATE TABLE visits(
   date_of_visit DATE,
   PRIMARY KEY(id)
 );
---
